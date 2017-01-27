@@ -8,8 +8,13 @@
 
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
-}
+class PainAndSuffering{private: void writingPain(); public: };
+
+void PainAndSuffering :: writingPain() { std::cout << "This is painfull" << std::endl; }
+
+int main() {std::cout << "Hello, World!\n";
+    
+    std::cout << "This is verry poorly coded" << std::endl << "What would you like to do" << std::endl << "(ViewNotes, RunAConversation, Exit";
+
+    
+                                                                                                                                            return 0;}
